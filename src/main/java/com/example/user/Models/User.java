@@ -1,4 +1,4 @@
-package com.example.user;
+package com.example.user.Models;
 
 import java.util.Objects;
 import java.util.stream.Stream;
