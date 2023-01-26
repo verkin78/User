@@ -14,6 +14,8 @@ public class UserTest {
 
     @Test
     public void addUserNull() {
+        User user = new User("roman","123@mail.ru");
+        Assertions.assertTrue(!user.getEmail().isEmpty() && !user.getLogin().isEmpty());
         User user1 = new User();
         Assertions.assertNotNull(user1);
     }
